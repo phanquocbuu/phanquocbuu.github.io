@@ -1,0 +1,68 @@
+{
+  "quizTitle": "Lists",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "Which is the correct way to create a list ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "['applie', 'orange', 'banana']",
+        "{'applie', 'orange', 'banana'}",
+        "('applie', 'orange', 'banana')"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Which is the output of this code? <br> `aList = ['a', 'b', 'c', 'd']` <br> `print(aList[1:3]`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "['a','b', 'c']",
+        "['b','c', 'd']",
+        "['a','b', 'c', 'd']"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Which is a correct statement to remove the middle element 3 from aList? <br> `aList = [1,2,3,4,5]`",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "del aList[2]",
+        "del aList[3]",
+        "aList.remove(3)",
+        "aList[2:3]"
+      ],
+      "correctAnswer": [1,4],
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Which is a correct statement to add 4 and 5 to the end of aList? <br> `aList = [1,2,3]`",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "aList.extend([4,5])",
+        "aList + [4,5]",
+        "aList.append([4,5])",
+        "aList.add([4,5])"
+      ],
+      "correctAnswer": [1,2],
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    }
+  ]
+} 

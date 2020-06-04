@@ -1,0 +1,86 @@
+{
+  "quizTitle": "Hàm",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "Cách chính xác để tạo ra một hàm là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "create myFunction():",
+        "def myFunction()",
+        "myFunction()",
+        ""
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+
+    {
+      "question": "Điều gì là sai trong hàm này?<br>`def myFunction():` <br> `print('Hello')` <br> `print('World')`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Không có gì sai",
+        "Câu lệnh in nên được hợp nhất để in ('Hello World')",
+        "Thiếu thụt ở dòng 2 và dòng 3"        
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Loại tryền đối số nào đúng? <br> `myFunction(x = 10, y = 20)`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Keyword arguments",
+        "Default arguments",
+        "Positional arguments",
+        "Arbitrary arguments"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của `print('a', 'b', 'c', sep = '-')` là gì",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "a b c -",
+        "a-b-c",
+        "-a-b-c-",
+        "a,b,c,-"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của mã này là gì? <br>`print('a', end = '-')` <br> `print('b')",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "In 2 dòng: dòng đầu tiên với 'a-', dòng thứ hai với 'b'",
+        "in 1 dòng: a-b"      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    }
+
+
+
+  ]
+} 

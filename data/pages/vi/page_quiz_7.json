@@ -1,0 +1,51 @@
+{
+  "quizTitle": "Kiểu dữ liệu Number",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "Đầu ra của `print(2*2**3*4)` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "64",
+        "48"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của `print(5 % 2)` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "2.5",
+        "2",
+        "1"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Làm thế nào để bạn tạo một biến với giá trị nguyên 7?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "x = 7",
+        "x = '7'",
+        "x = int(7)"
+      ],
+      "correctAnswer": [1, 3],
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    }
+
+  ]
+} 

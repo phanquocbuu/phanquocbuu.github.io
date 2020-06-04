@@ -1,0 +1,101 @@
+{
+  "quizTitle": "Câu Lệnh Điều Khiển",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "<pqbcode>_4_1",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    
+    {
+      "question": "Cách chính xác để viết một câu lệnh `if` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "if a = b:",
+        "if a == b :",
+        "if a > b { }",
+        "if (a > b)"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "Syntax is `if <expression> :` and the <expression> must return True or False",
+      "point": "20"
+    },
+    {
+      "question": "Có bất cứ điều gì sai trong mã này? <br><br> `if a > b:` <br> `print('a is greater than b')`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Không có gì sai", 
+        "Thiếu khoảng trắng trước` if` ở dòng 1",
+        "Thiếu thụt ở dòng 2 "
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+
+
+    {
+      "question": "Những biểu thức nào trả về Đúng?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "7 > 4 or 8 > 10",
+        "not 7 < 4 and not 4 > 7",
+        "7 > 4 and not 8 > 5",
+        "True and False",
+        "True or False"
+      ],
+      "correctAnswer": [1,2],
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Đầu ra của biểu thức này là gì? `7 < 4 or 9 > 1 and 1 > 9` ",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "'and' goes before 'or'. So (9 > 1 and 1 > 9) is False, then (7 < 4 or False) is False ",
+      "point": "10"
+    },
+    {
+      "question": "Đầu ra của biểu thức này là gì? `7 < 4 and 9 > 1 or 10 > 9` ",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "'and' goes before 'or'. So (7 < 4 and 9 > 1) is False, then (False or 10 >9 ) is True",
+      "point": "10"
+    }
+
+  ]
+} 

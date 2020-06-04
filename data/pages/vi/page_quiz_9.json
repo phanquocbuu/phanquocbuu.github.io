@@ -1,0 +1,86 @@
+{
+  "quizTitle": "String",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "What is a correct syntax to return the first character in a string?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "'Hello'.sub(0,1)",
+        "'Hello'[0]",        
+        "'Hello'[1]"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+
+    {
+      "question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "trim()",
+        "strip()",
+        "del()"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Which method can be used to return a string in lower case letters?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "lower()",
+        "lowercase()",
+        "toLowerCase()"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Which operator is used for multiplication?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "x",
+        "X",
+        "*",
+        "%"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+
+    {
+      "question": "Which method can be used to convert a string into a list of string elements?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "replace()",
+        "split()",
+        "strip()",
+        "split()"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    }
+    
+  ]
+} 

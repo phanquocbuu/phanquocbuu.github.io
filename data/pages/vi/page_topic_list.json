@@ -1,0 +1,13 @@
+[
+{"id": "1", "s_name": "Bắt đầu","l_name": "Giới thiệu về Python", "action_id": "action_quiz", "action_target": "/quiz/1"},
+{"id": "2", "s_name": "Gặp chú Rùa","l_name": "Lập trình với chú Rùa, Làm quen với Mô-đun Rùa và Cách di chuyển chú Rùa", "action_id": "action_quiz", "action_target": "/quiz/2"},
+{"id": "3", "s_name": "Những điều cơ bản","l_name": "Biến, Kiểu dữ liệu, Điều khoản và định nghĩa, Toán tử ", "action_id": "action_quiz", "action_target": "/quiz/3"},
+{"id": "4", "s_name": "Câu Lệnh Điều Khiển","l_name": "Câu Lệnh Điều Khiển, Mệnh đề if-else, Blocks & Indentation, If / Elif / Else ", "action_id": "action_quiz", "action_target": "/quiz/4"},
+{"id": "5", "s_name": "Vòng Lặp","l_name": "Vòng lặp for, Vòng lặp While, Lệnh Break & Continue ", "action_id": "action_quiz", "action_target": "/quiz/5"},
+{"id": "6", "s_name": "Hàm","l_name": "Định nghĩa và gọi hàm, Chuyển đối số, Hàm tích hợp, Mô-đun & lệnh import", "action_id": "action_quiz", "action_target": "/quiz/6"},
+{"id": "7", "s_name": "Kiểu dữ liệu Number","l_name": "Kiểu dữ liệu Number", "action_id": "action_quiz", "action_target": "/quiz/7"},
+{"id": "8", "s_name": "Kiểu dữ liệu List","l_name": "Định nghĩa dữ liệu List, Truy cập các phần tử của List, Các hoạt động cơ bản trên List, Các phương thức trên List", "action_id": "action_quiz", "action_target": "/quiz/8"},
+{"id": "9", "s_name": "Kiểu dữ liệu String","l_name": "Định nghĩa dữ liệu String, Truy cập các phần tử của String, Các hoạt động cơ bản trên String, Các phương thức trên String", "action_id": "action_quiz", "action_target": "/quiz/9"},
+{"id": "10", "s_name": "Trò chơi đoán từ","l_name": "Phát triển trò chơi đoán từ", "action_id": null, "action_target": null}
+
+]

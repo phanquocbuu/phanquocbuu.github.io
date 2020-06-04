@@ -1,0 +1,88 @@
+{
+  "quizTitle": "Functions",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "What is the correct way to create a function?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "create myFunction():",
+        "def myFunction()",
+        "myFunction()",
+        ""
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+
+    {
+      "question": "What is wrong in this function? <br>`def myFunction():` <br> `print('Hello')` <br> `print('World')`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Nothing wrong",
+        "Print statement should be merge to print('Hello World')",
+        "Missing indentation at line 2 and line 3"
+        
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Which type of passing arguments? <br> `myFunction(x = 10, y = 20)`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Keyword arguments",
+        "Default arguments",
+        "Positional arguments",
+        "Arbitrary arguments"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "What is the output of `print('a', 'b', 'c', sep = '-')`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "a b c -",
+        "a-b-c",
+        "-a-b-c-",
+        "a,b,c,-"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "What is the output of this code? <br>`print('a', end = '-')` <br> `print('b')",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "print 2 lines: first line with 'a-', second line with 'b'",
+        "print 1 line: a-b"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    }
+
+
+
+  ]
+} 

@@ -1,0 +1,147 @@
+{
+  "quizTitle": "Các khái niệm cơ bản",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "Đầu ra của câu lệnh này `print('Hello World!'[7])` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "W",
+        "o",
+        "r",
+        "l"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của câu lệnh này `print(6 < 7)` là gì",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "6 < 7",
+        "True",
+        "False"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của câu lệnh này `print(1 != 1)` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "True",
+        "Error",
+        "False"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+
+    {
+      "question": "<pqbcode>_3_1",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "7 > 4 and 4 > 7",
+        "False",
+        "True"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Làm thế nào để bạn chèn chú thích?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "# This is a commnet",
+        "< This is a comment >",
+        "// This is a comment"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Làm thế nào để bạn tạo một biến với giá trị nguyên 7?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "x = 7",
+        "x = '7'",
+        "x = int(7)"
+      ],
+      "correctAnswer": [1, 3],
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Hai dữ liệu này 'Hello World!' và \"Hello World!\" có giống nhau không?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "False",
+        "True"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Cái này `a + b - c` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "a comment",
+        "a statement",
+        "an expression",
+        "a function"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Đáp án nào là câu lệnh ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "# print hello world",
+        "if x > y :",
+        "x + y > z"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    }
+
+    
+
+
+  ]
+} 

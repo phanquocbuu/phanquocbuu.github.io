@@ -1,0 +1,55 @@
+{
+  "quizTitle": "Getting started",
+  "quizSynopsis": "",
+  "questions": [    
+    {
+      "question": "What is the correct statement to output 'Hello World'?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "write('Hello World')",
+        "print('Hello World')",
+        "output('Hello World')",      
+        "print(Hello World)"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "What is the output of this statement `print(3+4)` ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "34",
+        "3+4",
+        "3 4",      
+        "7"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "which functions are used to accept input from the user?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "string()",
+        "input()",
+        "read()",      
+        "get()"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    }
+
+  ]
+} 

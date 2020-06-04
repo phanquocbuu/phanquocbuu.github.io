@@ -1,0 +1,55 @@
+{
+  "quizTitle": "Bắt đầu",
+  "quizSynopsis": "",
+  "questions": [    
+    {
+      "question": "Lệnh để hiển thị 'Hello World' là gì? ",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "write('Hello World')",
+        "print('Hello World')",
+        "output('Hello World')",      
+        "print(Hello World)"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của câu lệnh này `print (3 + 4)` là gì ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "34",
+        "3+4",
+        "3 4",      
+        "7"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Những chức năng nào được sử dụng để chấp nhận đầu vào từ người dùng?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "string()",
+        "input()",
+        "read()",      
+        "get()"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    }
+
+  ]
+} 

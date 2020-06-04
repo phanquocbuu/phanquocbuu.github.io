@@ -1,0 +1,101 @@
+{
+  "quizTitle": "Flow Control",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "<pqbcode>_4_1",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "A",
+        "B",
+        "C"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    
+    {
+      "question": "What is the correct way to write an `if` statement?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "if a = b:",
+        "if a == b :",
+        "if a > b { }",
+        "if (a > b)"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "Syntax is `if <expression> :` and the <expression> must return True or False",
+      "point": "20"
+    },
+    {
+      "question": "Is there anything wrong this this code? <br><br> `if a > b:` <br> `print('a is greater than b')`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Nothing wrong",
+        "Missing whitespaces before `if` at line 1",
+        "Missing indention at line 2"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+
+
+    {
+      "question": "Which of these expressions returns True",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "7 > 4 or 8 > 10",
+        "not 7 < 4 and not 4 > 7",
+        "7 > 4 and not 8 > 5",
+        "True and False",
+        "True or False"
+      ],
+      "correctAnswer": [1,2],
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "What is the output of this expression `7 < 4 or 9 > 1 and 1 > 9` ",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "'and' goes before 'or'. So (9 > 1 and 1 > 9) is False, then (7 < 4 or False) is False ",
+      "point": "10"
+    },
+    {
+      "question": "What is the output of this expression `7 < 4 and 9 > 1 or 10 > 9` ",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "'and' goes before 'or'. So (7 < 4 and 9 > 1) is False, then (False or 10 >9 ) is True",
+      "point": "10"
+    }
+
+  ]
+} 

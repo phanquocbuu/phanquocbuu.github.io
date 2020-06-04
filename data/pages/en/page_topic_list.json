@@ -1,0 +1,13 @@
+[
+{"id": "1", "s_name": "Getting started","l_name": "A short introduction to Python and how to use this tutorial", "action_id": "action_quiz", "action_target": "/quiz/1"},
+{"id": "2", "s_name": "Meet Turtle","l_name": "Programming with Turtle, Turtle Module, Moving the Turtle", "action_id": "action_quiz", "action_target": "/quiz/2"},
+{"id": "3", "s_name": "Learn the Basics","l_name": "Variables, Data Types, Terms & Definitions, Operators", "action_id": "action_quiz", "action_target": "/quiz/3"},
+{"id": "4", "s_name": "Flow Control","l_name": "Flow Control, If statement, Blocks & Indentation, If / Elif / Else ", "action_id": "action_quiz", "action_target": "/quiz/4"},
+{"id": "5", "s_name": "Loop","l_name": "For Loop, While Loop, Break & Continue ", "action_id": "action_quiz", "action_target": "/quiz/5"},
+{"id": "6", "s_name": "Functions","l_name": "Define and Call Functions, Parameters and Arguments, Built-in Functions, Module & Import", "action_id": "action_quiz", "action_target": "/quiz/6"},
+{"id": "7", "s_name": "Numbers","l_name": "Data Type Numbers, Integer and Float, Operations", "action_id": "action_quiz", "action_target": "/quiz/7"},
+{"id": "8", "s_name": "List","l_name": "Create List and Access Element, List Methods, List Functions", "action_id": "action_quiz", "action_target": "/quiz/8"},
+{"id": "9", "s_name": "Strings","l_name": "Create String and Access Element, Concatenation, String Methods, String Functions", "action_id": "action_quiz", "action_target": "/quiz/9"},
+{"id": "10", "s_name": "Word Guessing Game","l_name": "Developing the Word Guessing Game", "action_id": null, "action_target": null}
+
+]

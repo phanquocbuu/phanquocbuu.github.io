@@ -1,0 +1,68 @@
+{
+  "quizTitle": "Kiểu dữ liệu List",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "Cách nào dưới đây để tạo ra một danh sách?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "['applie', 'orange', 'banana']",
+        "{'applie', 'orange', 'banana'}",
+        "('applie', 'orange', 'banana')"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của mã dưới đây là gì? <br> `aList = ['a', 'b', 'c', 'd']` <br> `print(aList[1:3]`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "['a','b', 'c']",
+        "['b','c', 'd']",
+        "['a','b', 'c', 'd']"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Câu lệnh nào để loại bỏ phần tử 3 khỏi danh sách aList? <br> `aList = [1,2,3,4,5]`",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "del aList[2]",
+        "del aList[3]",
+        "aList.remove(3)",
+        "aList[2:3]"
+      ],
+      "correctAnswer": [1,4],
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Câu lệnh nào để thêm phần tử 4 và 5 vào cuối danh sách aList? <br> `aList = [1,2,3]`",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "aList.extend([4,5])",
+        "aList + [4,5]",
+        "aList.append([4,5])",
+        "aList.add([4,5])"
+      ],
+      "correctAnswer": [1,2],
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    }
+  ]
+} 

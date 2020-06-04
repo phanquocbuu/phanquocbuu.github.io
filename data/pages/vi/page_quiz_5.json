@@ -1,0 +1,119 @@
+{
+  "quizTitle": "Vòng Lặp",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "<pqbcode>_5_1",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "100",
+        "98",
+        "99",
+        "102"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+
+    {
+      "question": "Cách chính xác để viết một vòng lặp `while` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "while x > y",
+        "while (x > y)",
+        "while x > y: ",
+        "while x > y {"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Cách chính xác để viết một vòng lặp `for` là gì?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "for x in y:",
+        "for x:",
+        "for x > y:",
+        "for x and y"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Câu lệnh nào được sử dụng để dừng vòng lặp?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "jump",
+        "skip",
+        "stop",
+        "break"
+      ],
+      "correctAnswer": "4",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "Đầu ra của mã này là gì? <br> `for number in range(1,5):` <br> &nbsp;&nbsp;&nbsp;&nbsp; `print(number)`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "0 1 2 3 4",
+        "1 2 3 4 5",
+        "1 2 3 4",
+        "0 1 2 3 4 5",
+        "1 5"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "<pqbcode>_5_2",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "a b c d",
+        "a b c d e f g h",
+        "a b c d f g h"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "'continue' will skip printing letter 'e' and continue with the while loop ",
+      "point": "10"
+    },
+    {
+      "question": "<pqbcode>_5_3",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "a b c d",
+        "a b c d e f g h",
+        "a b c d f g h"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Câu trả lời chính xác. Làm tốt lắm.",
+      "messageForIncorrectAnswer": "Câu trả lời không chính xác. Vui lòng thử lại.",
+      "explanation": "'break' will stop the while loop",
+      "point": "10"
+    }
+
+  ]
+} 

@@ -1,0 +1,147 @@
+{
+  "quizTitle": "Learn the Basics",
+  "quizSynopsis": "",
+  "questions": [
+    {
+      "question": "What is the output of this statement `print('Hello World!'[7])` ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "W",
+        "o",
+        "r",
+        "l"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "What is the ouput of this statement `print(6 < 7)`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "6 < 7",
+        "True",
+        "False"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+    {
+      "question": "What is the ouput of this statement `print(1 != 1)`",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "True",
+        "Error",
+        "False"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "20"
+    },
+
+    {
+      "question": "<pqbcode>_3_1",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "7 > 4 and 4 > 7",
+        "False",
+        "True"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "How do you insert comments?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "# This is a commnet",
+        "< This is a comment >",
+        "// This is a comment"
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "How do you create a variable with the integer value 7?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "x = 7",
+        "x = '7'",
+        "x = int(7)"
+      ],
+      "correctAnswer": [1, 3],
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Is 'Hello World!' the same as \"Hello World!\" ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "False",
+        "True"
+      ],
+      "correctAnswer": "2",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "What is this `a + b - c` ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "a comment",
+        "a statement",
+        "an expression",
+        "a function"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    },
+    {
+      "question": "Which of these is a statement ?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "# print hello world",
+        "if x > y :",
+        "x + y > z"
+      ],
+      "correctAnswer": "3",
+      "messageForCorrectAnswer": "Correct answer. Good job.",
+      "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+      "explanation": "",
+      "point": "10"
+    }
+
+    
+
+
+  ]
+} 
