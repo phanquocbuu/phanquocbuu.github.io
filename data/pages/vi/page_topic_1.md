@@ -4,7 +4,7 @@
 
 Một ngôn ngữ kịch bản là một ngôn ngữ mà không đòi hỏi một bước biên dịch. Lập trình là quá trình cung cấp cho máy tính của bạn một bộ hướng dẫn để thực hiện. Khi bạn tạo một chương trình python, bạn viết hướng dẫn bằng ngôn ngữ Python. Bạn có thể tự hỏi, "làm thế nào để máy tính của tôi hiểu hướng dẫn"? Vâng, có một trình thông dịch Python đọc các tập lệnh Python và thực hiện các hướng dẫn. Thông thường, bạn cần một trình soạn thảo để viết tập lệnh Python và trình thông dịch Python cần được cài đặt trên máy tính của bạn. Tuy nhiên, với Python Turtorial này, bạn không cần phải cài đặt bất cứ thứ gì. Trình chỉnh sửa và trình thông dịch đã được cài và sẵn sàng để bạn sử dụng. Bạn có thể viết tập lệnh Python trong *Trình chỉnh sửa*  (hộp bên trái - xem hình ảnh bên dưới), khi bạn nhấn nút *Chạy*, trình thông dịch sẽ đọc tập lệnh, thực thi và sau đó viết kết quả vào hộp *Kết quả* .
 
-<img src="/data/images/editor.png" alt="editor" style="zoom:100%;" />
+<img src="/data/images/editor_vi.png" alt="editor" style="zoom:60%;" />
 
 
 
@@ -20,14 +20,13 @@ print("Hello, World!")
 
 Đây là một ví dụ về việc sử dụng chức năng in *print*. Sau khi bạn nhấn nút *Chạy*, chương trình sẽ hiển thị dòng chữ "Hello, World!" trên hộp kết quả. Trong trường hợp này, giá trị là một văn bản *Hello, World!!* được tìm thấy giữa các dấu ngoặc kép.
 
-Bây giờ bạn có thể thử in *Hello, tên của bạn * trên hộp kết quả bằng cách thay thế World bằng tên của bạn và nhấn nút chạy.
+Bây giờ bạn có thể thử in *Hello, tên của bạn* trên hộp kết quả bằng cách thay thế World bằng tên của bạn và nhấn nút chạy.
 
 Một ví dụ đơn giản khác là hiển thị 2 + 3. Nếu bạn chạy tập lệnh này, nó sẽ hiển thị câu trả lời, 5, trên màn hình.
 
 <s_c>
 print(2 + 3)
 </s_c>
-
 
 
 ## Hàm print() và input()
@@ -41,17 +40,17 @@ Python có nhiều hàm dựng sẵn luôn có sẵn để sử dụng trong ch�
 Chương trình sau đây là yêu cầu người dùng nhập tên của họ và in tên người dùng trên màn hình:
 
 <p_c>
-print("I am printing your name")
-name = input("What is your name?")
-print(name)
+print("Tôi sẽ tên bạn")
+ten = input("Tên bạn là gì?")
+print(ten)
 </p_c>
-
-Line 1: Hàm `input("What is your name?")`  hiển thị một hộp thoại yêu cầu người dùng nhập tên  
-Line 2: In tên mà người dùng cung cấp từ dòng 1 
-
 <br>
 
-## Trò chơi đoán từ
+Line 1: Hàm `input("Tên bạn là gì?")`  hiển thị một hộp thoại yêu cầu người dùng nhập tên  
+Line 2: In tên mà người dùng cung cấp từ dòng 1    
+
+
+## Trò chơi đoán chữ
 
 
 Như đã đề cập trước đó, vào cuối hướng dẫn này, bạn sẽ có thể phát triển trò chơi đầu tiên của mình bằng Python, được gọi là "Trò chơi đoán chữ".
@@ -66,7 +65,6 @@ Như đã đề cập trước đó, vào cuối hướng dẫn này, bạn sẽ
 5. Trò chơi kết thúc khi người chơi đoán từ bí mật hoặc người chơi hết cơ hội đoán.
 6. Nếu người chơi thắng, chương trình sẽ in một thông điệp chúc mừng
 
-<br><br>
 
 The output of the game could be like this:
 
@@ -95,10 +93,8 @@ d u a h a u
 Xin chúc mừng! Bạn đã thắng!
 ```
 
-<br><br>
 
-
-Bây giờ, hãy bắt đầu tạo trò chơi. Điều đầu tiên chúng ta phải làm là để chương trình in trên màn hình giới thiệu về trò chơi. Nó sẽ in ra hai dòng. Dòng đầu tiên là, 'Hãy đoán tên của một loại trái cây! Nhập "thoat" để thoát khỏi trò chơi'. Dòng thứ hai là để cho người chơi biết sẽ có bao nhiêu cơ hội để đoán được từ bí mật. Ví dụ: 'Bạn có 8 lần đoán'. Bây giờ, đến lượt bạn viết mã đầu tiên của bạn. Bạn có thể kiểm tra mã của mình bằng cách nhấn nút *Chạy*. Nếu bạn cần trợ giúp, bạn có thể chọn hộp kiểm *Hiển thị đáp án*.
+Bây giờ, hãy bắt đầu tạo trò chơi. Điều đầu tiên chúng ta phải làm là để chương trình in trên màn hình giới thiệu về trò chơi. Nó sẽ in ra hai dòng. Dòng đầu tiên là, 'Hãy đoán tên của một loại trái cây! Nhập "thoat" để thoát khỏi trò chơi'. Dòng thứ hai là để cho người chơi biết sẽ có bao nhiêu cơ hội để đoán được từ bí mật. Ví dụ: 'Bạn có 8 lần đoán'. Bây giờ, đến lượt bạn viết mã đầu tiên của bạn. Bạn có thể kiểm tra mã của mình bằng cách nhấn nút *Chạy.* Nếu bạn cần trợ giúp, bạn có thể chọn hộp kiểm *Hiển thị đáp án*.
 
 <p_c>
 <p_a_c>

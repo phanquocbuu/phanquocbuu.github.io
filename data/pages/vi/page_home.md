@@ -1,6 +1,6 @@
 # Hướng dẫn lập trình Python
 
-Chào mừng các bạn đến với ** Hướng dẫn Python Cơ Bản **.
+Chào mừng các bạn đến với **Hướng dẫn Python Cơ Bản**.
 
 Trong hướng dẫn Python này, bạn sẽ được giới thiệu về lập trình máy tính bằng cách sử dụng Python, một trong những ngôn ngữ thân thiện với người mới bắt đầu. Python rất thú vị để học, nhưng cũng là một ngôn ngữ lập trình dùng để thiết lập những trang web và ứng dụng được sử dụng bởi nhiều công ty lớn trên thế giới.
 
@@ -19,49 +19,9 @@ for x in range(50):
     left(59)
 </p_c>
 <br>
-<br>
-
  
 
 Khi kết thúc chương trình cơ bản này, chúng ta sẽ quay lại ví dụ này và bạn sẽ khám phá ra rằng bạn đã có được một số kiến thức về cách chương trình này hoạt động
-
-# Thuật Từ trong tiếng Anh
-
-Tiếng Anh đặt biệt rất quang trọng cho công việc lập trình. 
-Dưới đây là những thuật từ bạn cần nên biết:
-<br>
-
-| Tiếng Việt   | Tiếng Anh |
-| ------------ | --------- |
-| Biến         | Variable  |
-| Biểu thức | Expression |
-| Câu lệnh				| Statement		|
-| Chỉ mục | Index  |
-| Khối lệnh	| Code Block	|
-| Cú pháp	| Syntax	|
-| Điều kiện	| Condition	|
-| Đối số	| Argument	|
-| Ghi chú, Chú thích	| Comment	|
-| Giá trị	| Value	|
-| Hàm          | Function  |
-| Mã | Code |
-| Mã giả | Pseudocode |
-| Mệnh đề      | Statement |
-|              |           |
-|              |           |
-|              |           |
-| Kiểu dữ liệu | Data type |
-|              |           |
-|              |           |
-|              |           |
-|              |           |
-| Tham số | Parameter |
-| Thư viện | Library |
-| Toán tử | Operator |
-|  Trình thông dịch            | Intepreter |
-| Trình soạn thảo | Editor |
-| Vòng Lập     | Loop      |
-|              |           |
 
 
 

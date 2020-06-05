@@ -2,7 +2,7 @@
 
 ## Kiểu dữ liệu chuỗi (String)
 
-Chúng ta đã làm quen với [chuỗi] (/topic/3#string) trong chương trước.
+Chúng ta đã làm quen với [chuỗi](/topic/3#string) trong chương trước.
 
 Để tạo một chuỗi, chỉ cần đặt văn bản của bạn (từ, số, ký hiệu hoặc kết hợp cả ba) với dấu ngoặc đơn (') hoặc ngoặc kép ("). Để tạo một chuỗi đa dòng, sử dụng ba dấu ngoặc kép ("""). Xem ví dụ dưới đây.
 
@@ -58,10 +58,8 @@ print(str4)
 | `replace(old,new)` | thay thế một chuỗi bằng một chuỗi khác | str.replace("Bạn","Huy")  | Chào Huy        |
 | `split()` | chia chuỗi thành danh sách các phần tử| str.split() | ["Chào", "Bạn"] |
 | `index(sub)` | trả về chỉ mục của chuỗi con | str.index("hào") | 1 |
-|           |                                                     |         |        |
 
 <br>
-
 
 <p_c>
 str_s = "  Chào Bạn  "
@@ -73,9 +71,7 @@ print("replace(): ", str.replace("Bạn", "Huy"))
 print("split(): ", str.split())
 print("index(): ", str.index("hào"))
 </p_c>
-
 <br>
-
 
 ## Chuỗi và Số nguyên (Strings and Integers)
 
@@ -90,7 +86,6 @@ print(1 + 2)
 print(1 + int("2"))
 print(str(1) + str(2))
 </p_c>
-
 <br>
 
 Dòng 1: nối hai chuỗi "1" và "2" trả về "12"  
@@ -114,7 +109,7 @@ Cú pháp: ```<string> .format (value1, value2 ...)```. Chuỗi được định
 #Dùng đối số theo vị trí 
 print("Tôi tên là {0}, tôi được {1} tuổi".format("Duy", 12))
 #Dùng đối số bằng từ khoá
-print("Tôi tên là {ten}, tôi được {tuoi} tuổi".format(ten = "Huy", "tuoi" = 14))
+print("Tôi tên là {ten}, tôi được {tuoi} tuổi".format(ten = "Huy", tuoi = 14))
 </p_c>
 
 

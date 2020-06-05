@@ -4,7 +4,7 @@
 
 ### Tạo danh sách (List) và truy cập phần tử (Access Element)
 
-Bạn đã làm quen với kiểu dữ liệu List trong chương trước [Danh sách] (/topic/3#List): :
+Bạn đã làm quen với kiểu dữ liệu List trong chương trước [Danh sách](/topic/3#List): 
 
 <s_c>
 ds_traicay = ["táo", "cam", "chuối"]	# tạo một danh sách ds_traicay với 3 phần tử 
@@ -25,7 +25,7 @@ print(ds_traicay[-2])	# in "cam" -- phần tử cuối thứ 2 của danh sách
 
 ### Phạm vi chỉ mục (Range of Indexes)
 
-Chúng ta có thể lấy một danh sách con từ một danh sách trong Python bằng toán tử cắt `:`. Bạn có thể chỉ định một phạm vi chỉ mục bằng cách chỉ định nơi bắt đầu và nơi kết thúc phạm vi `[<bắt_đầu>: <kết_thúc>]`:
+Chúng ta có thể lấy một danh sách con từ một danh sách trong Python bằng toán tử cắt `:`. Bạn có thể chỉ định một phạm vi chỉ mục bằng cách chỉ định nơi bắt đầu và nơi kết thúc phạm vi `[<bắt_đầu>:<kết_thúc>]`:
 
 <s_c>
 ds_traicay = ["táo", "cam", "chuối", "nho", "xoài"]
@@ -49,14 +49,13 @@ print(ds_traicay[-2])
 print(ds_traicay[1:4])
 print(ds_traicay[-4:-1])
 </p_c>
-
 <br>
 
 ## Phương thức (Methods)
 
 Danh sách có một số phương thức. Phương thức tương tự như hàm. Sự khác biệt duy nhất giữa phương thức và hàm là phương thức chỉ được sử dụng với một đối tượng, trong trường hợp này là đối tượng danh sách (list object), trong khi một hàm có thể được gọi mà không có đối tượng.
 
-Cú pháp của lệnh gọi phương thức: `<đối_tượng>.<tên_phương_thức>(<đối_số>)
+Cú pháp của lệnh gọi phương thức: `<đối_tượng>.<tên_phương_thức>(<đối_số>)`
 
 ## Thêm phần tử vào danh sách (Add to List)
 
@@ -75,6 +74,7 @@ print("sau khi extend: ", ds_traicay)
 ds_traicay.insert(1, "bơ")
 print("sau khi insert:", ds_traicay)
 </p_c>
+<br>
 
 ## Xóa phần tử từ danh sách (Remove from List)
 
@@ -90,10 +90,11 @@ print("sau khi remove: ", ds_traicay)
 ds_traicay.pop(0)	# xoá phần tử đầu 
 print("sau khi pop:", ds_traicay)
 </p_c>
+<br>
 
 ## Hàm len()
 
-Hàm `len ()` trả về độ dài của danh sách là số phần tử trong danh sách.
+Hàm `len()` trả về độ dài của danh sách là số phần tử trong danh sách.
 
 <s_c>
 ds_traicay = ["táo", "cam", "chuối"]
@@ -102,7 +103,7 @@ print(len(ds_traicay))	# hiển thị 3
 
 ## Nối 2 danh sách (Join two lists)
 
-Chúng ta đã thấy một ví dụ ở trên để sử dụng phương thức `extend ()` để thêm danh sách vào danh sách khác. Một cách khác để nối hoặc nối hai hoặc nhiều danh sách là sử dụng toán tử `+`.
+Chúng ta đã thấy một ví dụ ở trên để sử dụng phương thức `extend()` để thêm danh sách vào danh sách khác. Một cách khác để nối hoặc nối hai hoặc nhiều danh sách là sử dụng toán tử `+`.
 
 <p_c>
 ds_traicay = ["táo", "cam", "chuối"]

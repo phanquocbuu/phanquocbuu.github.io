@@ -24,11 +24,11 @@ Hãy xem ví dụ sau:
 
 <s_c>
 dieu_kien = input("Trời có mưa không?")
-if dieu_kein == "co":
-	print("Hãy mang theo ô")
+if dieu_kein == "có":
+	print("Hãy mang theo chiếc ô")
 </s_c>
 <br>
-Chương trình này bắt đầu đặt câu hỏi "Trời có mưa không". Điều kiện là câu trả lời của người dùng. Chương trình kiểm tra câu trả lời. Nếu câu trả lời là "có", điều kiện là đúng và chương trình sẽ in "Hãy cầm theo ô"
+Chương trình này bắt đầu đặt câu hỏi "Trời có mưa không?". Điều kiện là câu trả lời của người dùng. Chương trình kiểm tra câu trả lời. Nếu câu trả lời là "có", điều kiện là đúng và chương trình sẽ in "Hãy mang theo chiếc ô"
 
 Nếu câu trả lời là một cái gì đó khác, điều kiện là và sai và chương trình không làm gì cả.
 

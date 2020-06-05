@@ -3,7 +3,7 @@
 ## Giá Trị (Value) và Kiểu Dữ Liệu (Data Type)
 
 
-Chúng ta đã thấy trong chương đầu tiên giá trị "Hello, World!" và giá trị 5 - từ bản in (2 + 3). Một giá trị luôn thuộc một kiểu dữ liệu nhất định, ví dụ như kiểu dữ liệu *string* hoặc kiểu dữ liệu *integer (số)*. "Hello, Worldi!" là loại kiểu dữ liệu string (có nghĩa là chuỗi - một chuỗi các chữ cái) và 5 là một số nguyên hay còn gọi là kiểu dữ liệu integer (integer hay viết tắt là *int* có nghĩa là số nguyên). Còn một số kiểu dữ liệu khác trong Python nhưng hiện tại, chúng ta đang tìm hiểu 4 kiểu dữ liệu cơ bản: `string`, `integer`, `Boolean` và `list`. Chúng ta sẽ tìm hiểu về các loại dữ liệu chi tiết trong các chương dành riêng sau này trong khóa học.
+Chúng ta đã thấy trong chương đầu tiên giá trị "Hello, World!" và giá trị 5 - từ bản in (2 + 3). Một giá trị luôn thuộc một kiểu dữ liệu nhất định, ví dụ như kiểu dữ liệu *string* hoặc kiểu dữ liệu *integer (số).* "Hello, World!" là loại kiểu dữ liệu string (có nghĩa là chuỗi - một chuỗi các chữ cái) và 5 là một số nguyên hay còn gọi là kiểu dữ liệu integer (integer hay viết tắt là *int* có nghĩa là số nguyên). Còn một số kiểu dữ liệu khác trong Python nhưng hiện tại, chúng ta đang tìm hiểu 4 kiểu dữ liệu cơ bản: `string`, `integer`, `Boolean` và `list`. Chúng ta sẽ tìm hiểu về các loại dữ liệu chi tiết trong các chương dành riêng sau này trong khóa học.
 
 ### String
 Chuỗi trong python được bao quanh bởi dấu ngoặc kép đơn hoặc dấu ngoặc kép:  `'Hello,World!'` hoặc `"Hello,World!"`.
@@ -16,7 +16,7 @@ Mỗi phần tử của một chuỗi có một chỉ mục, bắt đầu từ s
 
 Để truy cập một phần tử của chuỗi, chúng ta sử dụng toán tử chỉ mục: **[]** với một chỉ mục bên trong dấu ngoặc vuông. Ví dụ: [0] để truy cập phần tử đầu tiên của "Hello, World!" đó là H và [6] để truy cập phần tử thứ 7 là W.
 
-*Lưu ý rằng chỉ mục bắt đầu từ 0. Vì vậy, chỉ số 0 có nghĩa là phần tử đầu tiên, chỉ mục 1 là phần tử thứ hai và chỉ mục n cho phần tử thứ (n + 1) *
+*Lưu ý rằng chỉ mục bắt đầu từ 0. Vì vậy, chỉ số 0 có nghĩa là phần tử đầu tiên, chỉ mục 1 là phần tử thứ hai và chỉ mục n cho phần tử thứ (n + 1)*
 
 <p_c>
 print("Hello,World!"[0]) 		 # print: H
@@ -24,8 +24,6 @@ print("Hello,World!"[6])		# print: W
 </p_c>
 
 <br>
-
-
 
 ### Integer
 
@@ -56,6 +54,7 @@ print(traicay[0])
 print(traicay[2])
 </p_c>
 <br>
+
 ## Biến (Variable)
 
 Một biến là một phần trong bộ nhớ để lưu trữ một giá trị. Mỗi biến có một tên, một giá trị và một kiểu dữ liệu. Giá trị có thể thay đổi theo thời gian và đó là lý do tại sao nó được gọi là biến số.
@@ -68,6 +67,7 @@ Một biến được tạo vào thời điểm đầu tiên bạn gán giá tr�
 ten = "Huy" 
 </s_c>
 <br>
+
 Biến `ten` có tên "ten", giá trị "Huy" và kiểu dữ liệu string.
 Giá trị của một biến có thể được thay đổi:
 <s_c>
@@ -76,17 +76,16 @@ ten = "Duy" 	# ten có giá trị mới là Duy
 print(first_name) 	# hiển thị Duy trên màn hình
 </s_c>
 
-Gán có thể được thực hiện trên nhiều biến trên cùng một dòng như thế này
+Gán có thể được thực hiện trên nhiều biến trên cùng một dòng như thế này:
 <s_c>
 x,y = "cam", "chuối" 	# --> gán string "cam" cho biến x, và "chuối" cho y
-a = b = c = 1						# --> gán giá trị đơn cho nhiều biến
+a = b = c = 1				# --> gán giá trị đơn cho nhiều biến
 </s_c>
-
-
 <br>
+
 Sau khi một biến được tạo, nó có thể được sử dụng trong chương trình để truy cập giá trị của nó. Trong tập lệnh bên dưới, các giá trị biến được hiển thị thông qua chức năng in
 <br>
-<br>
+
 <p_c>
 ten = "Huy"
 print(ten)
@@ -97,8 +96,10 @@ print(x)
 print(y)
 </p_c>
 <br>
+
 Chúng ta đã làm quen với chương trình đầu tiên "Hello, World!". Bây giờ bạn hãy tạo một chương trình khác để hỏi tên và hiễn thị thên trên màng hình. Hàm để yêu cầu cập nhật từ người dùng là `input ()`
 <br>
+
 <p_c>
 print("Hãy cập nhật tên của bạn:")
 x = input()
@@ -121,7 +122,7 @@ Trước khi chúng ta tiếp tục, hãy làm quen với các thuật ngữ và
 
 ***Hàm (Function)***
 
-Chúng ta đã thấy hàm `print ()`  trước đây. Còn nhiều nữa và chúng ta sẽ tìm hiểu về các chức năng trong một chương sau
+Chúng ta đã thấy hàm `print()`  trước đây. Còn nhiều nữa và chúng ta sẽ tìm hiểu về các chức năng trong một chương sau
 
 
 
@@ -137,7 +138,7 @@ Biểu thức  là sự kết hợp của các giá trị, biến, toán tử v�
 
 ***Chú Thích (Comment)***
 
-Khi viết mã, điều quan trọng là mã của bạn có thể dễ dàng được người khác hiểu. Một cách dễ dàng để tăng khả năng đọc mã của bạn là sử dụng **chú thích**
+Khi viết mã, điều quan trọng là mã của bạn có thể dễ dàng được người khác hiểu. Một cách dễ dàng để tăng khả năng đọc mã của bạn là sử dụng chú thích.
 
 Để viết bình luận bằng Python, chỉ cần đặt dấu băm `#` trước chú thích bạn muốn. Python bỏ qua mọi thứ sau dấu `#` và đến cuối dòng. Bạn có thể chèn chúng vào bất cứ đâu trong mã của bạn, thậm chí là nội tuyến với mã khác.
 
@@ -145,21 +146,15 @@ Khi viết mã, điều quan trọng là mã của bạn có thể dễ dàng đ
 #Đây là một chú thích
 print("Hello, World!")	# Đây là một chú thích nội tuyến
 </s_c>
-
 <br>
-
-
 
 ## Toán Tử (Operator)
 
-
-
-Operators are used to perform operations on variables and values. In this basic turtorial, we will focus on the 2 types of operators: arithmetic,  comparison and logical.
-
+Các toán tử được sử dụng để thực hiện các hoạt động trên các biến và giá trị. Trong hướng dẫn cơ bản này, chúng tôi sẽ tập trung vào 2 loại toán tử: số học, so sánh và logic.
 
 ### Toán tử số học (Arithmetic operator)
 
-The basic arithmetic operators are addition, subtraction, multiplication, and division. We can use those to create mathematical expressions.
+Các toán tử số học cơ bản là cộng, trừ, nhân và chia. Chúng ta có thể sử dụng chúng để tạo ra các biểu thức toán học.
 
 
 | Toán tử | Chú thích                                              | Ví dụ         |
@@ -170,7 +165,8 @@ The basic arithmetic operators are addition, subtraction, multiplication, and di
 |    /     | Phép chia                                                 | 4 / 2           |
 
 <br>
-Đây là một ví dụ. Bạn có thể thay đổi với số của riêng bạn và nhấn nút chạy để xem kết quả.
+
+Đây là một ví dụ. Bạn có thể thay đổi với số của riêng bạn và nhấn nút chạy để xem kết quả.  
 
 <p_c>
 x = 2

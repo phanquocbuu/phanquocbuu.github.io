@@ -52,29 +52,29 @@ print('Bạn có 8 lần đoán')
 print_word()
 while doanThanhCong == False and coHoi > 0:
     #yêu cầu người chơi nhập một chữ cái để đoán
-​    capNhat = input('Hãy nhập một chữ cái để đoán:')
+    capNhat = input('Hãy nhập một chữ cái để đoán:')
     #giảm cơ hội đi 1 lần
-​    coHoi = coHoi - 1
-​    #If the guess is 'a' or 'u' or 'd' or 'h'
-​    if inputLetter == 'a':
-​        coA = True
-​        print_progress(True)
-​    elif inputLetter == 'u':
-​        coU = True
-​        print_progress(True)
-​    elif inputLetter == 'h':
-​        coH = True
-​        print_progress(True)
-​    elif inputLetter == 'd':
-​        coD = True
-​        print_progress(True)
-​		else:
-​        print_progress(False)
-​    if (coA == True and coU == True and coD == True and coH == True):
-​        doanThanhCong = True
-​        print('Xin chúc mừng! Bạn đã thắng!')
+    coHoi = coHoi - 1
+    #If the guess is 'a' or 'u' or 'd' or 'h'
+    if inputLetter == 'a':
+        coA = True
+        print_progress(True)
+    elif inputLetter == 'u':
+        coU = True
+        print_progress(True)
+    elif inputLetter == 'h':
+        coH = True
+        print_progress(True)
+    elif inputLetter == 'd':
+        coD = True
+        print_progress(True)
+		else:
+        print_progress(False)
+    if (coA == True and coU == True and coD == True and coH == True):
+        doanThanhCong = True
+        print('Xin chúc mừng! Bạn đã thắng!')
 if doanThanhCong == False and coHoi == 0:
-​    print('Tôi thắng. Hãy thử lại')
+    print('Tôi thắng. Hãy thử lại')
 </s_c>
 
 
@@ -215,14 +215,13 @@ mangcut mittonu dautay duahau
 saurieng thanhlong vusua duale 
 duaxiem '''
 
-tenCacTraiCay = 'duahau'
 
 #Chuyển đổi chuỗi tenCacTraiCay thành một danh sách
 tenCacTraiCay = tenCacTraiCay.split(' ') 
 
 #Chọn ngẫu nhiên một từ bí mật từ danh sách "tenCacTraiCay"
 tuBiAn = random.choice(tenCacTraiCay)		
-  
+
 #Tạo biến coHoi để giữ số lượng dự đoán còn lại
 #Nó bắt đầu với số lượng chữ cái trong từ tuBiAn + 2
 coHoi = len(tuBiAn) + 2

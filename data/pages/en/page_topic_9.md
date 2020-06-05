@@ -112,5 +112,5 @@ Syntax: ```<string>.format(value1, value2...)``` . The string to be formatted co
 #using positional argruments
 print("My name is {0}, I am {1}".format("Gina", 14))
 #using keyword arguments
-print("My name is {fname}, I am {age}".format(fname = "Nick", "age" = 13))
+print("My name is {fname}, I am {age}".format(fname = "Nick", age = 13))
 </p_c>

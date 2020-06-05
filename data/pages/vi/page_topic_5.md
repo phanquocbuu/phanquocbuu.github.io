@@ -65,7 +65,7 @@ Chương trình sau đây để in 10 số từ 0 đến 9:
 for so in range(0,10):
     print(so)
 </p_c>
-
+<br>
 
 ## Vòng lặp While (While loop)
 
@@ -101,7 +101,6 @@ Chương trình trên được thực hiện theo trình tự sau:
 11. Dòng 2: `so` là 3, vì vậy `so <3` là Sai. Khối câu lệnh ở dòng 3 và 4 được bỏ qua. Chương trình kết thúc
 
 
-
 ## Lệnh Break và lệnh Continue
 
 Khối mã được lặp lại cho đến khi biểu thức là sai, nhưng đôi khi chúng tôi muốn chấm dứt vòng lặp hiện tại hoặc thậm chí toàn bộ vòng lặp mà không kiểm tra biểu thức vòng lặp.
@@ -127,6 +126,7 @@ for letter in "táo, cam"
         continue;
     print(chu_cai)
 </p_c>
+<br>
 
 Khi chữ cái là ",", câu lệnh `continue` được thực thi (dòng 3) và nó bỏ qua câu lệnh hiện tại `print(chu_cai)` ở dòng 4 và trở về dòng 1. Do đó, chúng ta thấy trong kết quả các chữ cái này: 'táo cam' (không có dấu phẩy)
 

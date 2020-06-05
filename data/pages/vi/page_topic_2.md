@@ -2,12 +2,12 @@
 
 ## Module Turtle
 
-Có nhiều *module* trong Python cung cấp các tính năng rất hữu dụng. Trong chương này, chúng ta sẽ làm quen với mô đun *turtle* mà tiếng Việt gọi là *rùa*. Đây là một trong những thư viện để tạo ra những trò chơi giải trí. Điều đầu tiên bạn học được khi lập trình với thư viện rùa Python là làm thế nào để rùa di chuyển theo hướng bạn muốn. Trong bài học này, bạn có thể không hiểu tất cả các mã nhưng nó hoàn toàn là điều bình thường. Bạn sẽ học các kỹ năng lập trình cơ bản trong các bài học tiếp theo. "
+Có nhiều *module* trong Python cung cấp các tính năng rất hữu dụng. Trong chương này, chúng ta sẽ làm quen với mô đun *turtle* mà tiếng Việt gọi là *rùa*. Đây là một trong những thư viện để tạo ra những trò chơi giải trí. Điều đầu tiên bạn học được khi lập trình với thư viện rùa Python là làm thế nào để rùa di chuyển theo hướng bạn muốn. Trong bài học này, bạn có thể không hiểu tất cả các mã nhưng nó hoàn toàn là điều bình thường. Bạn sẽ học các kỹ năng lập trình cơ bản trong các bài học tiếp theo.
 
 
 ## Di Chuyển Rùa
 
-Có bốn hướng một con rùa có thể di chuyển:
+Có bốn hướng con Rùa có thể di chuyển:
 
 - Forward (đi thẳng về phía trước)
 - Backward (đi lùi lại phía sau)
@@ -16,7 +16,7 @@ Có bốn hướng một con rùa có thể di chuyển:
 
 Con rùa di chuyển `.forward ()` hoặc `.backward ()` theo hướng mà nó đang hướng tới. Bạn có thể thay đổi hướng này bằng cách chuyển nó `.left ()` hoặc `.right ()` theo một góc độ nhất định.
 
-Trước tiên chúng ta hãy xem chương trình đầu tiên để tạo ra một con rùa mới và cho rùa biết cách di chuyển:
+Trước tiên chúng ta hãy xem chương trình đầu tiên để tạo ra một con rùa và cho rùa biết cách di chuyển:
 
 <p_c size=M>
 import turtle

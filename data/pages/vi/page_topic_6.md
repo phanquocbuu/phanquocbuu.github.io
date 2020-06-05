@@ -26,8 +26,8 @@ Cú pháp để gọi hàm:
 
 Có 2 thuật ngữ mới ***tham số*** và ***đối số***:
 
-***<tham_số>***  là tùy chọn. Nó có thể chứa một hoặc nhiều tham số được phân tách bằng dấu phẩy.
-***<đối_số>*** cũng là tùy chọn. Nó có thể chứa một hoặc nhiều đối số được phân tách bằng dấu phẩy. Đối số là các giá trị được truyền vào các hàm. Chúng tương ứng với các tham số trong định nghĩa hàm.
+`<tham_số>`  là tùy chọn. Nó có thể chứa một hoặc nhiều tham số được phân tách bằng dấu phẩy.
+`<đối_số>` cũng là tùy chọn. Nó có thể chứa một hoặc nhiều đối số được phân tách bằng dấu phẩy. Đối số là các giá trị được truyền vào các hàm. Chúng tương ứng với các tham số trong định nghĩa hàm.
 
 Giả sử chúng ta tạo một hàm để chào hỏi ai đó. Đầu tiên chúng ta tạo một hàm với một tham số ten (tên)
 
@@ -68,6 +68,7 @@ Chương trình trên được thực hiện theo các bước sau:
 |  6   |  5   | Bắt đầu dòng thực thi 5, gọi hàm `chao` với một đối số "Duy" |
 |  7   | 1-3  | Tương tự như bước 2,3 và 4, lần này giá trị của tham số `ten` là 'Duy' và 'Duy'sẽ được in trên màn hình |
 
+<br>
 
 ## Truyền đối số (Passing Arguments)
 
@@ -95,7 +96,6 @@ def chao(ten, loi_chao):
 greeting("Huy", "bạn khoẻ chứ?")	# in "Chào Huy, bạn khoẻ chứ?"
 greeting("Duy", "chúc bạn một ngày tốt!")	# print "Chào Duy, chúc bạn một ngày tốt!"
 </p_c>
-
 <br>
 
 Khi gọi hàm chào, chúng ta phải truyền 2 đối số vào đúng vị trí, tương ứng với vị trí tham số trong định nghĩa hàm. Ví dụ: "Huy", "Duy" tương ứng với tham số `ten` và do đó cần phải được chuyển qua làm vị trí đầu tiên. "bạn khoẻ chứ?" hoặc "chúc bạn một ngày tốt!" tương ứng với tham số `loi_chao` và cần ở vị trí thứ hai.
@@ -115,12 +115,11 @@ def chao(ten, loi_chao = "bạn khoẻ chứ?"):
 greeting("Huy")	# in "Chào Huy, bạn khoẻ chứ?"
 greeting("Duy", "bạn đang làm gì?")	# in "Chào Duy, bạn đang làm gì?"
 </p_c>
-<br><br>
+<br>
 
 ### Đối số từ khóa (Keyword Arguments)
 
 Khi bạn gọi một hàm, bạn có thể chỉ định các đối số ở dạng `<từ_khoá> = <giá_trị>`. Trong trường hợp đó, mỗi `<từ_khoá>` phải khớp với một tham số trong định nghĩa hàm. Bạn có thể chỉ định các đối số theo bất kỳ thứ tự nào và Python vẫn sẽ biết đối số nào đi với tham số nào.
-
 
 <p_c>
 def chao(ten, loi_chao):
@@ -128,7 +127,8 @@ def chao(ten, loi_chao):
 greeting(ten = "Huy", loi_chao =  "bạn khoẻ chứ")	# in "Chào Huy, bạn khoẻ chứ?"
 greeting(loi_chao = "bạn đang làm gì?", ten = "Duy")	# in "Chào Duy, bạn đang làm gì?"
 </p_c>
-<br><br>
+<br>
+
 ### Đối số tuỳ tiện (Arbitrary Arguments)
 
 Python cho phép chúng ta có số lượng đối số tùy ý. Điều này đặc biệt hữu ích khi chúng tôi không chắc chắn trước rằng có bao nhiêu đối số, hàm yêu cầu.
@@ -140,8 +140,7 @@ def chao(*ds_ten):
         print(ten)
 chao("Huy", "Duy", "Hoa", "Hạnh")        
 </p_c>
-<br><br>
-
+<br>
 
 # Hàm tích hợp sẵn (Built-in Functions)
 
@@ -165,7 +164,7 @@ print("Hello", "Huy", sep=" --- " )	# in "Chào ---Huy"
 print("Hanh", "Duy", end="\n\n")	# in "Hanh Duy" và thêm 2 dòng trống vào phía cuối
 print("Xong!")
 </p_c>
-<br><br>
+<br>
 
 ## Hàm input() 
 
@@ -174,7 +173,7 @@ Hàm `input()` được sử dụng để yêu cầu người dùng cập nhật
 ten = input("Bạn tên gì?")
 print(ten)
 </p_c>
-<br><br>
+<br>
 
 ## Mô-đun (Module)
 
@@ -188,7 +187,7 @@ Các phương pháp là:
 - `randint(<tối_thiểu>, <tối_đa>)`. Ví dụ: `randint(2,7)` để tạo một số nguyên ngẫu nhiên trong khoảng từ 2 đến 7
 - `choice(<danh_sách>)`. Ví dụ: `choice(["ab", "bc", "def"])` để chọn ngẫu nhiên một trong ba chuỗi "ab", "bc" hoặc "def"
 
-<br>
+
 <p_c>
 import random
 print(random.randint(2,7)) 
@@ -208,8 +207,7 @@ import math
 print(math.sqrt(4))	#Căn bậc hai của 4
 print(math.pow(2,3)) # 2 power 3
 </p_c>
-
-<br><br>
+<br>
 
 ## Trò chơi đoán chữ 
 
@@ -241,8 +239,6 @@ Làm tốt lắm!
 Nhập một chữ cái để đoán: x
 Không tìm thấy
 ```
-
-
 
 
 <p_c size=L>
@@ -330,12 +326,4 @@ if doanThanhCong == False and coHoi == 0:
 </s_c>
 </p_a_c>
 </p_c>
-
-
-
-
-
-
-
-
 
